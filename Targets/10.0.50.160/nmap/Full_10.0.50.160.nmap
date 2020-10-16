@@ -1,0 +1,80 @@
+# Nmap 7.80 scan initiated Thu Oct  8 11:56:10 2020 as: nmap -Pn -sCV -p3753 -oN nmap/Full_10.0.50.160.nmap 10.0.50.160
+Nmap scan report for 10.0.50.160
+Host is up (0.071s latency).
+
+PORT     STATE SERVICE      VERSION
+3753/tcp open  nattyserver?
+| fingerprint-strings: 
+|   GenericLines: 
+|     GNU gdb (Debian 7.12-6) 7.12.0.20161007-git
+|     Copyright (C) 2016 Free Software Foundation, Inc.
+|     License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+|     This is free software: you are free to change and redistribute it.
+|     There is NO WARRANTY, to the extent permitted by law. Type "show copying"
+|     "show warranty" for details.
+|     This GDB was configured as "x86_64-linux-gnu".
+|     Type "show configuration" for configuration details.
+|     reporting instructions, please see:
+|     <http://www.gnu.org/software/gdb/bugs/>.
+|     Find the GDB manual and other documentation resources online at:
+|     <http://www.gnu.org/software/gdb/documentation/>.
+|     help, type "help".
+|     Type "apropos word" to search for commands related to "word".
+|     (gdb) 
+|     (gdb) 
+|     (gdb) 
+|     (gdb) 
+|     (gdb)
+|   NULL: 
+|     GNU gdb (Debian 7.12-6) 7.12.0.20161007-git
+|     Copyright (C) 2016 Free Software Foundation, Inc.
+|     License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+|     This is free software: you are free to change and redistribute it.
+|     There is NO WARRANTY, to the extent permitted by law. Type "show copying"
+|     "show warranty" for details.
+|     This GDB was configured as "x86_64-linux-gnu".
+|     Type "show configuration" for configuration details.
+|     reporting instructions, please see:
+|     <http://www.gnu.org/software/gdb/bugs/>.
+|     Find the GDB manual and other documentation resources online at:
+|     <http://www.gnu.org/software/gdb/documentation/>.
+|     help, type "help".
+|     Type "apropos word" to search for commands related to "word".
+|_    (gdb)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3753-TCP:V=7.80%I=7%D=10/8%Time=5F7F44B1%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,2F0,"GNU\x20gdb\x20\(Debian\x207\.12-6\)\x207\.12\.0\.20161007-git\r
+SF:\nCopyright\x20\(C\)\x202016\x20Free\x20Software\x20Foundation,\x20Inc\
+SF:.\r\nLicense\x20GPLv3\+:\x20GNU\x20GPL\x20version\x203\x20or\x20later\x
+SF:20<http://gnu\.org/licenses/gpl\.html>\r\nThis\x20is\x20free\x20softwar
+SF:e:\x20you\x20are\x20free\x20to\x20change\x20and\x20redistribute\x20it\.
+SF:\r\nThere\x20is\x20NO\x20WARRANTY,\x20to\x20the\x20extent\x20permitted\
+SF:x20by\x20law\.\x20\x20Type\x20\"show\x20copying\"\r\nand\x20\"show\x20w
+SF:arranty\"\x20for\x20details\.\r\nThis\x20GDB\x20was\x20configured\x20as
+SF:\x20\"x86_64-linux-gnu\"\.\r\nType\x20\"show\x20configuration\"\x20for\
+SF:x20configuration\x20details\.\r\nFor\x20bug\x20reporting\x20instruction
+SF:s,\x20please\x20see:\r\n<http://www\.gnu\.org/software/gdb/bugs/>\.\r\n
+SF:Find\x20the\x20GDB\x20manual\x20and\x20other\x20documentation\x20resour
+SF:ces\x20online\x20at:\r\n<http://www\.gnu\.org/software/gdb/documentatio
+SF:n/>\.\r\nFor\x20help,\x20type\x20\"help\"\.\r\nType\x20\"apropos\x20wor
+SF:d\"\x20to\x20search\x20for\x20commands\x20related\x20to\x20\"word\"\.\r
+SF:\n\(gdb\)\x20")%r(GenericLines,310,"GNU\x20gdb\x20\(Debian\x207\.12-6\)
+SF:\x207\.12\.0\.20161007-git\r\nCopyright\x20\(C\)\x202016\x20Free\x20Sof
+SF:tware\x20Foundation,\x20Inc\.\r\nLicense\x20GPLv3\+:\x20GNU\x20GPL\x20v
+SF:ersion\x203\x20or\x20later\x20<http://gnu\.org/licenses/gpl\.html>\r\nT
+SF:his\x20is\x20free\x20software:\x20you\x20are\x20free\x20to\x20change\x2
+SF:0and\x20redistribute\x20it\.\r\nThere\x20is\x20NO\x20WARRANTY,\x20to\x2
+SF:0the\x20extent\x20permitted\x20by\x20law\.\x20\x20Type\x20\"show\x20cop
+SF:ying\"\r\nand\x20\"show\x20warranty\"\x20for\x20details\.\r\nThis\x20GD
+SF:B\x20was\x20configured\x20as\x20\"x86_64-linux-gnu\"\.\r\nType\x20\"sho
+SF:w\x20configuration\"\x20for\x20configuration\x20details\.\r\nFor\x20bug
+SF:\x20reporting\x20instructions,\x20please\x20see:\r\n<http://www\.gnu\.o
+SF:rg/software/gdb/bugs/>\.\r\nFind\x20the\x20GDB\x20manual\x20and\x20othe
+SF:r\x20documentation\x20resources\x20online\x20at:\r\n<http://www\.gnu\.o
+SF:rg/software/gdb/documentation/>\.\r\nFor\x20help,\x20type\x20\"help\"\.
+SF:\r\nType\x20\"apropos\x20word\"\x20to\x20search\x20for\x20commands\x20r
+SF:elated\x20to\x20\"word\"\.\r\n\(gdb\)\x20\r\n\(gdb\)\x20\r\n\(gdb\)\x20
+SF:\r\n\(gdb\)\x20\r\n\(gdb\)\x20");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct  8 11:58:53 2020 -- 1 IP address (1 host up) scanned in 162.88 seconds
